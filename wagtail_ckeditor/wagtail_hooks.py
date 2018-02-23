@@ -27,6 +27,6 @@ def whitelister_element_rules():
         'thead': allow_without_attributes,
         'tr': allow_without_attributes,
         'tbody': allow_without_attributes,
-        'td': allow_without_attributes,
+        'td': attribute_rule({'style': True, "class": True}),
         'hr': allow_without_attributes,
     }
