@@ -29,4 +29,5 @@ def whitelister_element_rules():
         'tbody': allow_without_attributes,
         'td': attribute_rule({'style': True, "class": True}),
         'hr': allow_without_attributes,
+        'img': attribute_rule({'alt': True, "src": True}),
     }
