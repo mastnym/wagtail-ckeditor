@@ -1,7 +1,7 @@
 from django.templatetags.static import static
 from django.utils.html import format_html
-from wagtail.wagtailcore import hooks
-from wagtail.wagtailcore.whitelist import allow_without_attributes, check_url, attribute_rule
+from wagtail.core import hooks
+from wagtail.core.whitelist import allow_without_attributes, check_url, attribute_rule
 from wagtail_ckeditor import settings
 
 
